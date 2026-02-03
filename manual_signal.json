@@ -1,0 +1,17 @@
+{
+  "signal_id": "manual-20251208-OK",
+  "ts_utc": "2025-12-08T15:40:00Z",
+
+  "symbol": "AAPL",
+  "side": "BUY",
+  "asset_class": "stock",
+
+  "entry_type": "market",
+  "entry": 200.0,
+  "stop": 190.0,
+  "take": 220.0,
+
+  "p_win_raw": 0.86,
+  "risk_pct_equity_max": 0.01,
+  "snapshot_hash": "clone_sensei_20251208_003"
+}

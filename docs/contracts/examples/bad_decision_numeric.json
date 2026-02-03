@@ -1,0 +1,12 @@
+{
+  "schema_version": "sensei.decision.v5",
+  "action": "ALLOW",
+  "reason_code": "OK",
+  "reason_text": "ILLEGAL: contains numbers.",
+  "confidence": 0.80,
+  "guards": [],
+  "policy_version": "policy-1",
+  "strategy_id": "strat-1",
+  "ts_utc": "2026-01-23T12:00:00Z",
+  "entry": 100.5
+}

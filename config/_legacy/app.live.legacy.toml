@@ -1,0 +1,42 @@
+[env]
+mode = "live"
+timezone = "America/New_York"
+local_tz = "Europe/Tallinn"
+
+[paths]
+db = "data/trader.db"
+logs_dir = "logs"
+
+[logging]
+level = "INFO"
+json_logs = true
+rotate_mb = 100
+backups = 10
+
+[ibkr]
+host = "127.0.0.1"
+port = 7496                 # стандартный live-порт
+client_id = 1
+client_id_autopick = false  # в live лучше фиксированный id
+read_only = false
+pacing_guard_ms = 200
+reconnect_backoff_ms = 1000
+
+[sheets]
+spreadsheet_id = "1-Z2JyY_1FnfVSNHJNVycjA3IEy6-relOHnFNF4mWSgU"
+batch_size = 200
+
+[telegram]
+bot_token_env = "TG_BOT_TOKEN"
+chat_id = "870404759"
+batch_interval_sec = 600
+critical_immediate = true
+
+[llm]
+provider = "cloud"
+model = "sensei-json"
+max_rph = 12
+max_rpd = 120
+
+[service]
+heartbeat_sec = 10

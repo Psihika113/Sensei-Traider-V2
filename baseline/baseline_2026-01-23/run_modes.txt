@@ -1,0 +1,8 @@
+RUN MODES (canonical):
+- SENSEI_RUN_MODE=shadow|paper|live
+- SENSEI_LIVE_ARM=1   (только для live)
+- SENSEI_NO_HARM=1    (глобальный запрет execute)
+Behavior:
+- shadow: pipeline работает, execute запрещен
+- paper : execute только в paper (IBKR paper)
+- live  : execute в live только при ARM=1 и порогах допуска

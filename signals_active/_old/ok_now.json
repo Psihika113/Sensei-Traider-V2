@@ -1,0 +1,15 @@
+{
+  "signal_id": "paper-mkt-001",
+  "ts_utc": "2025-12-23T14:05:00Z",
+  "symbol": "AAPL",
+  "asset_class": "stock",
+  "side": "BUY",
+  "entry_type": "market",
+  "entry": 200.0,
+  "stop": 100.0,
+  "take": 400.0,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.60,
+  "risk_pct_equity_max": 0.0001,
+  "snapshot_hash": "paper-mkt-001"
+}

@@ -1,0 +1,15 @@
+{
+  "signal_id": "zz-offline-smoke-002",
+  "ts_utc": "2026-01-13T08:32:45Z",
+  "symbol": "AAPL",
+  "asset_class": "stock",
+  "side": "BUY",
+  "entry_type": "market",
+  "entry": 190.0,
+  "stop": 189.0,
+  "take": 193.0,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.95,
+  "risk_pct_equity_max": 0.001,
+  "snapshot_hash": "zz_offline_smoke_002"
+}

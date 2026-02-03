@@ -1,0 +1,15 @@
+{
+  "signal_id": "zz-paper-smoke-001",
+  "ts_utc": "2025-12-31T11:26:21Z",
+  "symbol": "AAPL",
+  "asset_class": "stock",
+  "side": "BUY",
+  "entry_type": "limit",
+  "entry": 190.0,
+  "stop": 188.0,
+  "take": 194.0,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.95,
+  "risk_pct_equity_max": 0.005,
+  "snapshot_hash": "zz_paper_smoke_001"
+}

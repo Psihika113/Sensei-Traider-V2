@@ -1,0 +1,40 @@
+# config/app.offline.toml (канонический формат)
+
+[db]
+path = "data/trader.db"
+
+[runtime]
+environment = "dev"
+mode = "offline"
+loop_sleep_seconds = 5
+sheets_sync_interval_seconds = 60
+notify_flush_interval_seconds = 60
+risk_snapshot_refresh_seconds = 30
+
+[risk]
+config_path = "risk_config.yaml"
+
+[ibkr]
+host = "127.0.0.1"
+port = 7497
+client_id = 1
+connect_timeout = 10.0
+
+[sheets]
+spreadsheet_id = ""
+service_account_json = "config/service_account.json"
+trades_prefix = "Trades_"
+template_trades_sheet = "Trades_template"
+
+[telegram]
+bot_token = ""
+chat_id = ""
+batch_interval_seconds = 600
+max_batch_notifications = 50
+normal_disable_notification = true
+
+[envelopes]
+inbox_path = "envelopes_inbox"
+done_path  = "envelopes_done"
+bad_path   = "envelopes_bad"
+max_files_per_tick = 10

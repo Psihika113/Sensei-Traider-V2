@@ -1,0 +1,12 @@
+[general]
+default_profile = "demo_safe"
+
+[profile.demo_safe]
+# "Нормально-консервативный" режим
+equity_usd = 100000
+daily_loss_limit_pct = 2.0
+
+[profile.demo_aggressive]
+# Поизвестись, но аккуратно отслеживай PnL
+equity_usd = 100000
+daily_loss_limit_pct = 8.0

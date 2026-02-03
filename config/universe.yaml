@@ -1,0 +1,29 @@
+# config/universe.yaml
+
+filters:
+  # Минимальный среднедневной оборот (ADV) в долларах.
+  min_adv_usd: 20000000
+
+  # Биржи, на которых торгуем.
+  exchanges:
+    - "NYSE"
+    - "NASDAQ"
+
+  # Чёрный список тикеров, которые не торгуем, даже если они проходят по фильтрам.
+  blacklist: []
+
+# Базовый universe тикеров (ликвидные large-cap).
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - AMZN
+  - META
+  - SPY
+
+# Дополнительный watchlist (hands-on список, с которым LLM может играть отдельно).
+watchlist:
+  - TSLA
+  - AMD
+  - GOOG
+  - GOOGL

@@ -1,0 +1,4 @@
+BASELINE (2026-01-23):
+- Legacy контур (Signal) не ломаем.
+- Новый контур (Envelope+Decision v5) вводим параллельно.
+- Сначала SHADOW (без execute), затем PAPER, затем LIVE.

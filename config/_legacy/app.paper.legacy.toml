@@ -1,0 +1,45 @@
+[env]
+mode = "paper"
+timezone = "America/New_York"
+local_tz = "Europe/Tallinn"
+
+[paths]
+db = "data/trader.db"
+logs_dir = "logs"
+
+[ibkr]
+host = "127.0.0.1"
+port = 7497
+client_id = 101
+read_only = false
+pacing_guard_ms = 200
+reconnect_backoff_ms = 500
+client_id_autopick = true
+
+[llm]
+provider = "cloud"
+model = "sensei-json"
+max_rph = 12
+max_rpd = 120
+
+[telegram]
+enabled = true
+chat_id = "0"
+batch_seconds = 600
+bot_token_env = "TG_BOT_TOKEN"
+critical_immediate = true
+
+[sheets]
+enabled = false
+spreadsheet_id = "skip"
+batch_size = 100
+
+[service]
+heartbeat_sec = 10
+
+[logging]
+json = true
+level = "INFO"
+rotate_mb = 50
+backups = 5
+	

@@ -1,0 +1,11 @@
+{
+  "schema_version": "sensei.envelope.v1",
+  "symbol": "AAPL",
+  "ts_utc": "2026-01-23T12:00:00Z",
+  "session": "RTH",
+  "market_snapshot": {
+    "ask": 190.12,
+    "mid": 190.11,
+    "spread": 0.02
+  }
+}

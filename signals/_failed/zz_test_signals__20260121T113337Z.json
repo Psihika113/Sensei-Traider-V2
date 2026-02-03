@@ -1,0 +1,4 @@
+"asset_class": "stock",
+"side": "buy",
+"entry_type": "limit",
+"time_in_force": "day",

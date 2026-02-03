@@ -1,0 +1,18 @@
+[Unit]
+Description=IB Gateway watchdog
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/senseitrader
+Environment=IB_HOST=127.0.0.1
+Environment=IB_PORT=7497
+Environment=IBGW_CMD=/opt/ibgateway/ibgateway
+ExecStart=/usr/bin/python3 /opt/senseitrader/scripts/ibgw_launch.py
+Restart=always
+RestartSec=5
+User=sensei
+Group=sensei
+
+[Install]
+WantedBy=multi-user.target

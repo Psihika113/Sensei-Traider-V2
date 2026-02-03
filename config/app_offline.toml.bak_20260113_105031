@@ -1,0 +1,66 @@
+# ============================
+#  config/app.toml (актуальный)
+# ============================
+
+[db]
+path = "data/trader_offline_sandbox.db"
+
+
+[runtime]
+# dev / stage / prod — просто метка окружения (для логов и т.п.).
+environment = "dev"
+
+# Режим работы ядра:
+# - offline : вообще без реальных IBKR / Sheets / Telegram / LLM
+# - paper   : paper-аккаунт IBKR + реальные интеграции
+# - live    : боевой IBKR + реальные интеграции
+mode = "offline"
+
+# Базовый sleep главного цикла сервиса (секунды).
+loop_sleep_seconds = 5
+
+# Как часто дергать синхронизацию с Google Sheets (секунды).
+sheets_sync_interval_seconds = 60
+
+# Как часто флешить батч обычных уведомлений (секунды).
+notify_flush_interval_seconds = 60
+
+# Как часто обновлять RiskSnapshot (секунды).
+risk_snapshot_refresh_seconds = 30
+
+
+[risk]
+# Путь задаётся относительно самой папки config/, где лежит app.toml
+config_path = "risk_config.yaml"
+
+
+[ibkr]
+# Параметры подключения к TWS / IB Gateway.
+host = "127.0.0.1"
+port = 7497          # 7497 — paper, 7496 — live (по умолчанию)
+client_id = 1
+connect_timeout = 10.0
+
+
+[sheets]
+# Если spreadsheet_id пустой или секция не задана — интеграция с Sheets будет отключена.
+spreadsheet_id = ""                 # например: "1AbCDefGhIjkLmNoPqRsTuVwXyZ..."
+service_account_json = "config/service_account.json"
+
+# Префикс для ежемесячных листов журнала сделок.
+trades_prefix = "Trades_"
+
+# Имя шаблонного листа с заголовками,
+# из которого копируется первая строка в новые месяцы.
+template_trades_sheet = "Trades_template"
+
+
+[telegram]
+# Если bot_token или chat_id пустые — Telegram-уведомления отключены.
+bot_token = ""    # "123456:ABC-DEF..."
+chat_id = ""      # "123456789"
+
+# Не критические уведомления батчатся не чаще, чем раз в N секунд.
+batch_interval_seconds = 600           # <= 1 раз / 10 минут
+max_batch_notifications = 50
+normal_disable_notification = true     # батчи — без звука

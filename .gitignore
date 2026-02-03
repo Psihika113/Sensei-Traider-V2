@@ -1,0 +1,68 @@
+# --- Python / Venv / Caches ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.Python
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# --- Secrets & Local Config ---
+.env
+*.env
+secrets/
+config/google-service-account.json
+config/google-service-account.p12
+config/google-service-account.pem
+
+# --- Local Data / Logs ---
+logs/
+reports/
+data/*.sqlite
+data/*.db
+data/*.log
+inbox/_processed/
+inbox/_failed/
+
+# --- Build / Dist / Artifacts ---
+build/
+dist/
+*.spec
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Misc ---
+*.bak
+*.swp
+
+# --- SenseiTrader standard: local/runtime artifacts ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# local artifacts (not part of repo)
+_local/
+logs/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# secrets
+.env
+secrets/

@@ -1,0 +1,19 @@
+[
+  {
+    "schema_version": "1.0",
+    "signal_id": "demo-1",
+    "ts_utc": "2025-12-01T12:00:00Z",
+    "symbol": "AAPL",
+    "asset_class": "stock",
+    "side": "BUY",
+    "entry_type": "limit",
+    "entry": 190.0,
+    "stop": 186.0,
+    "take": 198.0,
+    "time_in_force": "DAY",
+    "p_win_raw": 0.86,
+    "risk_pct_equity_max": 0.0075,
+    "notes": "demo",
+    "snapshot_hash": "demo"
+  }
+]

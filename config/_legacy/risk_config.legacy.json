@@ -1,0 +1,15 @@
+{
+  "mode": "offline_demo",
+  "offline_demo": {
+    "min_p_cal": 0.72,
+    "min_ev_after_costs": -0.05,
+    "min_rr": 1.0,
+    "max_risk_usd": 2000.0
+  },
+  "live": {
+    "min_p_cal": 0.80,
+    "min_ev_after_costs": 0.10,
+    "min_rr": 2.0,
+    "max_risk_usd": 300.0
+  }
+}

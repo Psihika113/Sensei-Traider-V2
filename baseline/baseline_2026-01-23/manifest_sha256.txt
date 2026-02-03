@@ -1,0 +1,32 @@
+﻿
+
+Algorithm : SHA256
+Hash      : B59F2F751A486167E7355638B9E3C10943F283C945D904C20F4ED810571ACE9D
+Path      : C:\Users\Mass\Desktop\SenseiTrader\config\app.offline.toml
+
+Algorithm : SHA256
+Hash      : BFE9AACE9BC0451FB76E4B88A870D2276A80106586E26855C6967FAB8FA22910
+Path      : C:\Users\Mass\Desktop\SenseiTrader\config\risk_config.yaml
+
+Algorithm : SHA256
+Hash      : 5BA8598A5D5464DE878375541EA83588470AB259EB924BC1443F4C8DE1B48FB7
+Path      : C:\Users\Mass\Desktop\SenseiTrader\app\service.py
+
+Algorithm : SHA256
+Hash      : E0F992616448B1850459A3960828B827257AD7C1526CAED89491F8BB4088C2C6
+Path      : C:\Users\Mass\Desktop\SenseiTrader\app\risk.py
+
+Algorithm : SHA256
+Hash      : B7DE4DDD49B678EB938CBF1F99804FD5E42EC0FE0709B3801DE33E34D8ED4B95
+Path      : C:\Users\Mass\Desktop\SenseiTrader\app\executor.py
+
+Algorithm : SHA256
+Hash      : DEB9A0E9CE0396D094C97F0DC09396B06FCCAAF90FFDE45C4B6D0608BD7F0193
+Path      : C:\Users\Mass\Desktop\SenseiTrader\core\schemas.py
+
+Algorithm : SHA256
+Hash      : 4CE3CF08747D6E90EF754AD15F71777D06E68DFBCBB8FAC6CAF2753DBD7802DD
+Path      : C:\Users\Mass\Desktop\SenseiTrader\logs\sensei.log
+
+
+

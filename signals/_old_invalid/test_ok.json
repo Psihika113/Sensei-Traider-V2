@@ -1,0 +1,15 @@
+{
+  "schema": "signal.v1",
+  "signal_id": "sig_demo_001",
+  "ts_utc": "2025-09-09T12:00:00Z",
+  "symbol": "NVDA",
+  "side": "BUY",
+  "entry_type": "limit",
+  "entry": 125.00,
+  "stop": 120.00,
+  "take": 130.00,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.86,
+  "risk_pct_equity_max": 0.0075,
+  "notes": "demo"
+}

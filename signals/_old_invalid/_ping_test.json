@@ -1,0 +1,12 @@
+{
+  "signal_id": "paper-ping-001",
+  "ts_utc": "2025-12-23T12:05:00Z",
+  "symbol": "AAPL",
+  "asset_class": "stock",
+  "side": "BUY",
+  "entry_type": "MARKET",
+  "entry": 0,
+  "stop": 1,
+  "take": 2,
+  "time_in_force": "DAY"
+}

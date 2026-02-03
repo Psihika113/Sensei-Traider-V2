@@ -1,0 +1,11 @@
+{
+  "signal_id": "ok-now-005",
+  "symbol": "AAPL",
+  "side": "BUY",
+  "qty": 1,
+  "entry_type": "limit",
+  "entry": 9999,
+  "stop": 100,
+  "take": 400,
+  "time_in_force": "DAY"
+}

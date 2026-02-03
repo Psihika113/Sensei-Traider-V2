@@ -1,0 +1,20 @@
+[Unit]
+Description=SenseiTrader service
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/senseitrader
+Environment=SENSEI_MODE=paper
+Environment=SENSEI_CONFIG=/opt/senseitrader/config/app.paper.toml
+Environment=GOOGLE_APPLICATION_CREDENTIALS=/opt/senseitrader/config/google-service-account.json
+ExecStart=/usr/bin/python3 /opt/senseitrader/run_service.py
+Restart=always
+RestartSec=5
+User=sensei
+Group=sensei
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

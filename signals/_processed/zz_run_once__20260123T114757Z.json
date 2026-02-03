@@ -1,0 +1,46 @@
+[
+  {
+    "signal_id": "sig_demo_pass_001",
+    "schema_version": "v1",
+    "symbol": "AAPL",
+    "asset_class": "stock",
+    "side": "BUY",
+    "entry_type": "limit",
+    "entry": 190.0,
+    "stop": 188.0,
+    "take": 194.0,
+    "time_in_force": "DAY",
+    "p_win_raw": 0.72,
+    "risk_pct_equity_max": 0.0075,
+    "notes": "demo pass: p_win >= 0.60, RR >= 1.5",
+    "snapshot_hash": "demo_snapshot_001",
+    "exchange": "SMART",
+    "tags": [
+      "demo",
+      "pass"
+    ],
+    "ts_utc": "2026-01-23T11:47:54.941933Z"
+  },
+  {
+    "signal_id": "sig_demo_reject_001",
+    "schema_version": "v1",
+    "symbol": "AAPL",
+    "asset_class": "stock",
+    "side": "BUY",
+    "entry_type": "limit",
+    "entry": 190.0,
+    "stop": 189.5,
+    "take": 190.4,
+    "time_in_force": "DAY",
+    "p_win_raw": 0.55,
+    "risk_pct_equity_max": 0.0075,
+    "notes": "demo reject: p_win < 0.60",
+    "snapshot_hash": "demo_snapshot_002",
+    "exchange": "SMART",
+    "tags": [
+      "demo",
+      "reject"
+    ],
+    "ts_utc": "2026-01-23T11:47:54.941933Z"
+  }
+]

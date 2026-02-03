@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "signal_id": "sig_aapl_mkt_ad389e2d",
+  "ts_utc": "2025-12-03T12:55:00Z",
+
+  "symbol": "AAPL",
+  "asset_class": "stock",
+
+  "side": "BUY",
+  "entry_type": "market",
+
+  "entry": 200.0,
+  "stop": 190.0,
+  "take": 220.0,
+
+  "time_in_force": "DAY",
+
+  "p_win_raw": 0.88,
+  "risk_pct_equity_max": 0.0075,
+
+  "notes": "AAPL market demo signal (offline)",
+  "snapshot_hash": "sha256:aapl_mkt_demo_offline_001",
+
+  "exchange": "NASDAQ",
+  "tags": ["demo", "offline", "aapl"]
+}

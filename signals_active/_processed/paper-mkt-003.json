@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "signal_id": "paper-mkt-003",
+  "ts_utc": "2025-12-24T11:48:07.588283+00:00",
+  "symbol": "AAPL",
+  "asset_class": "stock",
+  "side": "BUY",
+  "entry_type": "market",
+  "entry": 271.0,
+  "stop": 269.0,
+  "take": 274.8,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.95,
+  "risk_pct_equity_max": 2e-05,
+  "notes": "paper smoke via Signal contract",
+  "snapshot_hash": "f012962abf4f30fc7c24e83a449dbc4834c66cdcc179f430dbc4b8b2c2e20294"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "signal.v1",
+  "signal_id": "sig_aapl_demo_001",
+  "ts_utc": "2025-10-21T10:55:00Z",
+  "symbol": "AAPL",
+  "side": "BUY",
+  "entry_type": "market",
+  "entry": null,
+  "stop": 190.0,
+  "take": 210.0,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.86,
+  "risk_pct_equity_max": 0.0075,
+  "notes": "demo via signals/"
+}

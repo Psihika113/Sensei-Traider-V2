@@ -1,0 +1,15 @@
+{
+  "signal_id": "paper-test-0002",
+  "ts_utc": "2025-12-22T00:00:00Z",
+  "symbol": "AAPL",
+  "asset_class": "stock",
+  "side": "BUY",
+  "entry_type": "limit",
+  "entry": 200.00,
+  "stop": 198.50,
+  "take": 203.00,
+  "time_in_force": "DAY",
+  "p_win_raw": 0.99,
+  "risk_pct_equity_max": 0.0075,
+  "snapshot_hash": "deadbeef00"
+}

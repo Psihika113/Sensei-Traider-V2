@@ -1,0 +1,21 @@
+[
+  {
+    "schema_version": "1.0",
+    "signal_id": "sensei-20251208-002",
+    "ts_utc": "2025-12-08T14:50:00Z",
+    "symbol": "AAPL",
+    "asset_class": "stock",
+    "side": "BUY",
+    "entry_type": "limit",
+    "entry": 200.0,
+    "stop": 197.0,
+    "take": 208.0,
+    "time_in_force": "DAY",
+    "p_win_raw": 0.9,
+    "risk_pct_equity_max": 0.007,
+    "notes": null,
+    "snapshot_hash": "sensei-20251208-002",
+    "exchange": null,
+    "tags": null
+  }
+]
