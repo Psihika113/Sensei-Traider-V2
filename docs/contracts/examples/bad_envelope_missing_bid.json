@@ -4,6 +4,7 @@
   "ts_utc": "2026-01-23T12:00:00Z",
   "session": "RTH",
   "market_snapshot": {
+    "bid": 190.10,
     "ask": 190.12,
     "mid": 190.11,
     "spread": 0.02
