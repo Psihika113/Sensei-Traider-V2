@@ -66,3 +66,6 @@ data/
 # secrets
 .env
 secrets/
+envelopes_inbox/
+envelopes_done/
+envelopes_bad/
